@@ -1,0 +1,16 @@
+{
+  "name": "shri",
+  "version": "1.0.0",
+  "description": "",
+  "main": "solution/index.js",
+  "scripts": {
+    "start": "nodemon tests/simple.test.js localhost 8080",
+    "test": "jest tests/simple.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.3.1",
+    "nodemon": "^2.0.14"
+  }
+}
