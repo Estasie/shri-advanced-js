@@ -9,6 +9,7 @@ describe('Тесты для Set', () => {
     it('есть свойство size', () => {
         const arr = [4, 8, 15, 16, 23, 42];
         const set = new MySet(arr);
+        const test = 1;
         expect(set.size).toBe(6);
     });
     it('работает в цикле for-of', () => {
